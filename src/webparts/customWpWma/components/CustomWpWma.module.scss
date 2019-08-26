@@ -1,0 +1,216 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+div[class^="pageContent_"] {
+  max-width: 100% !important;
+}
+
+ul[role="list"] {
+  border: none !important;
+}
+
+li[role="listitem"] {
+  border: none !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  // width: 90%;
+  height: 1200px;
+}
+
+.showDiv {
+  display: inline;
+}
+
+.hideen {
+  display: none;
+}
+
+.userDetails {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.userImage {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  /* float: left; */
+  overflow: hidden;
+  margin: 5px 5px;
+}
+
+.userImage>img {
+  width: 100%;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.userData {
+  margin-top: 10px;
+  padding: 0 5px;
+}
+
+.userName {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.userDetails {
+  width: auto;
+}
+
+.userDesignation {
+  width: auto;
+}
+
+.userDescription {
+  width: auto;
+}
+
+.leftNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #999
+}
+
+.leftNav {
+  background: #004b87;
+  color: white;
+  width: calc(25% - 15px);
+  float: left;
+  margin-top: 20px;
+  // margin-right: 15px
+}
+
+.manageAssets {
+  margin: 10px 0;
+  // padding: 5px;
+}
+
+.manageAssets li {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #999;
+  cursor: pointer
+}
+
+.manageAssets li:last-child {
+  border: 0
+}
+
+.manageAssets li i {
+  font-size: 16px;
+  vertical-align: middle;
+  margin-right: 5px
+}
+
+.rightContent {
+  width: 75%;
+  float: left;
+  margin-top: 20px
+}
+
+.ribbonTop ul {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+
+.ribbonTop ul li {
+  display: inline-block;
+  margin: 0 10px
+}
+
+.ribbonTop ul li a {
+  color: #333;
+  text-decoration: none
+}
+
+.ribbonTop {
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center
+}
+
+.addNewBtn {
+  flex: 0 15%;
+  display: flex;
+  align-items: stretch;
+  height: 32px
+}
+
+.searchBox {
+  flex: 0 85%
+}
+
+.containerMain {
+  background: #f4f4f4;
+  padding: 10px 30px;
+}
+
+.Title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.contactCard {
+  background: #fff;
+  padding: 15px 25px;
+  margin: 10px 0;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1);
+}
+
+.orgCard {
+  background: #fff;
+  padding: 10px 5px;
+  margin: 10px 0;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1);
+  width: 33.33%;
+  margin-left: 33.33%;
+  cursor: pointer;
+}
+
+.directReport {
+  width: auto;
+}
+
+.orgCard>.userImage {
+  float: left;
+  margin-right: 15px;
+}
+
+.orgCard>.userData {
+  margin: 5px !important;
+}
+
+.orgCardContainer {
+  margin-top: 10px;
+}
+
+.orgCardContainer>.orgCard {
+  width: 30%;
+  margin: 5px;
+  display: inline-block;
+  box-shadow: none;
+}
+
+.modalMain {
+  padding: 10px;
+}
+
+.modalHeader {
+  width: auto;
+}
+
+.modalBody {
+  padding: 5px;
+}
+
+.modalFooter {
+  widows: auto;
+}

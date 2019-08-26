@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-wp-wma-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customWpWma/CustomWpWmaWebPart.js",
+          "manifest": "./src/webparts/customWpWma/CustomWpWmaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomWpWmaWebPartStrings": "lib/webparts/customWpWma/loc/{locale}.js"
+  }
+}

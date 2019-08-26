@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "sp-fx-custom-wp-wma",
+    "libraryId": "c0164911-87f2-4db3-9d34-1cc3aa438d6c",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

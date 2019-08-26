@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-custom-wp-wma-client-side-solution",
+    "id": "c0164911-87f2-4db3-9d34-1cc3aa438d6c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-custom-wp-wma.sppkg"
+  }
+}
