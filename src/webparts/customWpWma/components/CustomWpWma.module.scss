@@ -199,6 +199,10 @@ li[role="listitem"] {
   box-shadow: none;
 }
 
+.modalContainer {
+  max-width: 1200px;
+}
+
 .modalMain {
   padding: 10px;
 }
@@ -213,4 +217,23 @@ li[role="listitem"] {
 
 .modalFooter {
   widows: auto;
+}
+
+.modalHeader>.userDetails>.userImage {
+  float: left;
+  margin-right: 15px;
+}
+
+.modalHeader>.userDetails>.userData {
+  margin: auto;
+}
+
+.modalHeader>.userDescription,
+.modalHeader>.userDesignation,
+.modalHeader>.userDetails {
+  display: block;
+}
+
+.modalClose {
+  float: right;
 }

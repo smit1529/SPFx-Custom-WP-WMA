@@ -37,7 +37,7 @@ export default class Organization extends React.Component<{}, IBasicOrgState> {
                 <div>
                     <div className={styles.orgCard} onClick={this._showModal}>
                         <div className={styles.userImage} onClick={this._showModal}>
-                            <img src="https://binaryrepublik516.sharepoint.com/sites/SPGuru/_layouts/15/userphoto.aspx?size=S&amp;accountname=smit.shah@binaryrepublik.com" title="Smit Shah" />
+                            <img src="https://binaryrepublik516.sharepoint.com/sites/SPGuru/_layouts/15/userphoto.aspx?size=S&accountname=" title="Smit Shah" />
                         </div>
                         <div className={styles.userData}>
                             <div className={styles.userName}>Smit Shah</div>
@@ -61,7 +61,7 @@ export default class Organization extends React.Component<{}, IBasicOrgState> {
                     <div className={styles.orgCardContainer}>
                         <div className={styles.orgCard} onClick={this._showModal}>
                             <div className={styles.userImage}>
-                                <img src="https://binaryrepublik516.sharepoint.com/sites/SPGuru/_layouts/15/userphoto.aspx?size=S&amp;accountname=smit.shah@binaryrepublik.com" title="Smit Shah" />
+                                <img src="https://binaryrepublik516.sharepoint.com/sites/SPGuru/_layouts/15/userphoto.aspx?size=S&accountname=" title="Smit Shah" />
                             </div>
                             <div className={styles.userData}>
                                 <div className={styles.userName}>Smit Shah</div>
@@ -70,7 +70,7 @@ export default class Organization extends React.Component<{}, IBasicOrgState> {
                         </div>
                         <div className={styles.orgCard} onClick={this._showModal}>
                             <div className={styles.userImage}>
-                                <img src="https://binaryrepublik516.sharepoint.com/sites/SPGuru/_layouts/15/userphoto.aspx?size=S&amp;accountname=smit.shah@binaryrepublik.com" title="Smit Shah" />
+                                <img src="https://binaryrepublik516.sharepoint.com/sites/SPGuru/_layouts/15/userphoto.aspx?size=S&accountname=" title="Smit Shah" />
                             </div>
                             <div className={styles.userData}>
                                 <div className={styles.userName}>Smit Shah</div>
@@ -79,7 +79,7 @@ export default class Organization extends React.Component<{}, IBasicOrgState> {
                         </div>
                         <div className={styles.orgCard} onClick={this._showModal}>
                             <div className={styles.userImage}>
-                                <img src="https://binaryrepublik516.sharepoint.com/sites/SPGuru/_layouts/15/userphoto.aspx?size=S&amp;accountname=smit.shah@binaryrepublik.com" title="Smit Shah" />
+                                <img src="https://binaryrepublik516.sharepoint.com/sites/SPGuru/_layouts/15/userphoto.aspx?size=S&accountname=" title="Smit Shah" />
                             </div>
                             <div className={styles.userData}>
                                 <div className={styles.userName}>Smit Shah</div>
@@ -89,10 +89,30 @@ export default class Organization extends React.Component<{}, IBasicOrgState> {
                     </div>
                 </div>
 
-                <Modal titleAriaId="personDetails" subtitleAriaId="subtitleId" isOpen={this.state.showModal} onDismiss={this._closeModal} isBlocking={false} containerClassName={styles.container}>
+                <Modal titleAriaId="personDetails" subtitleAriaId="subtitleId" isOpen={this.state.showModal} onDismiss={this._closeModal} isBlocking={false} containerClassName={styles.modalContainer}>
                     <div className={styles.modalMain}>
                         <div className={styles.modalHeader}>
-                            <span id="personDetails">Lorem Ipsum</span>
+                            <div className={styles.modalClose}>
+                                <DefaultButton onClick={this._closeModal} text="Close" />
+                            </div>
+                            <div className={styles.userDetails}>
+                                <div className={styles.userImage}>
+                                    <a href="https://aus.delve.office.com/?p=smit.shah@binaryrepublik.com&amp;v=profiledetails" data-interception="off" target="_blank">
+                                        <img src="https://binaryrepublik516.sharepoint.com/sites/SPGuru/_layouts/15/userphoto.aspx?size=S&amp;accountname=smit.shah@binaryrepublik.com" title="Smit Shah" />
+                                    </a>
+                                </div>
+                                <div className={styles.userData}>
+                                    <div className={styles.userName}>
+                                        Smit Shah
+                                    </div>
+                                    <div className={styles.userDesignation}>
+                                        Paper Machine Foreman
+                                    </div>
+                                    <div className={styles.userDescription}>
+                                        S-3704-Dir-Sheeters General
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div id="subtitleId" className={styles.modalBody}>
                             <p>
